@@ -9,6 +9,9 @@
 <title>Insert title here</title>
 </head>
 <body>
+
+	<h1>Login</h1>
+	
 		<form action="${linkformLogin}" method="post">
 			Empresa: 		 <input type="text" name="login"/>
 			Data de Abertura <input type="password" name="senha"/>
