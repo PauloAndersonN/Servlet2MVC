@@ -27,7 +27,7 @@ public class NovaEmpresa implements Acao{
 			throw new ServletException(e);
 		}
 		
-		Empresa empresa = new Empresa();
+		Empresa empresa = new Empresa(); 
 		empresa.setNome(paramNome);
 		empresa.setDataAbertura(dataAbertura);
 		
